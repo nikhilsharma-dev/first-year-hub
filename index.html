@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>First Year Hub</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h2>🎓 First Year Hub</h2>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="notes.html">Notes</a>
+<a href="practical.html">Practical</a>
+<a href="sessional.html">Sessional</a>
+<a href="final.html">Final Semester</a>
+</nav>
+  <button onclick="toggleDarkMode()">🌙 Dark Mode</button>
+</header>
+
+<section class="hero">
+
+<h1>🎓 Everything You Need for First Year</h1>
+
+<p>
+Notes • Practical • Sessional • Final Semester Papers
+</p>
+
+<a href="notes.html">
+    <button>Start Studying</button>
+</a>
+
+</section>
+
+<section class="search">
+
+<h2>🔍 Search Notes</h2>
+
+<input
+type="text"
+id="searchBox"
+placeholder="Search Subject...">
+
+<br><br>
+
+<button onclick="searchSubject()">🔍 Search</button>
+
+</section>
+
+<section class="visitor-counter">
+    <h2>👥 Visitors</h2>
+    <p id="visitorCount">Loading...</p>
+</section>
+
+<section class="title">
+
+<h2>📚 Study Resources</h2>
+
+<p>Everything you need in one place</p>
+
+</section>
+
+<section class="features">
+
+<div class="card">
+<h2>📚 Notes</h2>
+<p>Subject-wise Notes</p>
+
+<a href="notes.html">
+<button>Open</button>
+</a>
+</div>
+
+<div class="card">
+<h2>🧪 Practical</h2>
+<p>Lab Files & Viva</p>
+
+<a href="practical.html">
+<button>Open</button>
+</a>
+</div>
+
+<div class="card">
+<h2>📝 Sessional</h2>
+<p>Previous Year Papers</p>
+
+<a href="sessional.html">
+<button>Open</button>
+</a>
+</div>
+
+<div class="card">
+<h2>🎓 Final Semester</h2>
+<p>Question Papers</p>
+
+<a href="final.html">
+<button>Open</button>
+</a>
+</div>
+
+</section>
+
+<footer>
+<p>© 2026 First Year Hub | Made by Nikhil Kumar</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
