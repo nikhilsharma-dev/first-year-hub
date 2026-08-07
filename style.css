@@ -292,3 +292,53 @@ footer{
     }
 
 }
+.feedback-btn{
+    display:inline-block;
+    background:#2563eb;
+    color:white;
+    text-decoration:none;
+    padding:15px 30px;
+    border-radius:12px;
+    font-size:18px;
+    font-weight:bold;
+    margin:20px auto;
+    transition:.3s;
+}
+
+.feedback-btn:hover{
+    background:#1d4ed8;
+    transform:scale(1.05);
+}
+/* Feedback Section */
+
+.feedback-home{
+    width:90%;
+    max-width:700px;
+    margin:40px auto;
+    padding:35px 20px;
+    text-align:center;
+}
+
+.feedback-home h2{
+    color:#2563eb;
+    font-size:30px;
+    margin-bottom:12px;
+}
+
+.feedback-home p{
+    color:#666;
+    font-size:18px;
+    margin-bottom:20px;
+}
+
+.feedback-home a{
+    display:inline-block;
+}
+
+.dark .feedback-home h2{
+    color:#4da3ff;
+}
+
+.dark .feedback-home p{
+    color:#ddd;
+}
