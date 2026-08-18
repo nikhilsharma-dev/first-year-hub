@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>First Year Hub</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    height:100vh;
+    overflow:hidden;
+    background:
+        radial-gradient(circle at center, #18283d, #05080d 70%);
+    color:white;
+    font-family:"Brush Script MT","Segoe Script",cursive;
+}
+
+
+/* Main */
+
+.intro{
+    height:100vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    text-align:center;
+
+    position:relative;
+}
+
+
+/* Soft glow */
+
+.glow{
+    position:absolute;
+
+    width:280px;
+    height:280px;
+
+    border-radius:50%;
+
+    background:rgba(160,210,255,.12);
+
+    filter:blur(60px);
+
+    animation:pulse 2s ease-in-out infinite alternate;
+}
+
+@keyframes pulse{
+
+    from{
+        transform:scale(.8);
+        opacity:.4;
+    }
+
+    to{
+        transform:scale(1.2);
+        opacity:.8;
+    }
+
+}
+
+
+/* Content */
+
+.content{
+    position:relative;
+    z-index:2;
+}
+
+
+/* Welcome */
+
+.welcome{
+    font-size:22px;
+
+    letter-spacing:3px;
+
+    opacity:0;
+
+    animation:fadeIn 1s .2s forwards;
+}
+
+
+/* Logo */
+
+.logo{
+    margin-top:12px;
+
+    font-size:82px;
+
+    font-weight:bold;
+
+    font-style:italic;
+
+    background:
+        linear-gradient(
+            90deg,
+            #ffffff,
+            #9bd8ff,
+            #ffffff
+        );
+
+    -webkit-background-clip:text;
+
+    color:transparent;
+
+    background-size:200%;
+
+    opacity:0;
+
+    animation:
+        logoReveal 1.4s .5s forwards,
+        shine 2s 1s linear infinite;
+}
+
+
+/* Underline */
+
+.line{
+    width:0;
+    height:2px;
+
+    margin:5px auto 15px;
+
+    background:white;
+
+    border-radius:50%;
+
+    animation:lineGrow 1s 1.2s forwards;
+}
+
+
+/* Website name */
+
+.name{
+    font-size:31px;
+
+    font-style:italic;
+
+    letter-spacing:2px;
+
+    opacity:0;
+
+    animation:fadeUp 1s 1.2s forwards;
+}
+
+
+/* Tagline */
+
+.tagline{
+    margin-top:10px;
+
+    font-size:17px;
+
+    font-style:italic;
+
+    opacity:0;
+
+    animation:fadeUp 1s 1.5s forwards;
+}
+
+
+/* Loading */
+
+.loading{
+    margin-top:35px;
+
+    font-size:15px;
+
+    font-style:italic;
+
+    letter-spacing:2px;
+
+    opacity:.5;
+}
+
+.bar{
+    width:190px;
+
+    height:2px;
+
+    margin:10px auto;
+
+    background:rgba(255,255,255,.15);
+
+    overflow:hidden;
+}
+
+.bar span{
+    display:block;
+
+    height:100%;
+
+    width:0;
+
+    background:white;
+
+    animation:loading 3s linear forwards;
+}
+
+
+/* Animations */
+
+@keyframes fadeIn{
+
+    to{
+        opacity:.7;
+    }
+
+}
+
+@keyframes logoReveal{
+
+    from{
+        opacity:0;
+        transform:scale(.5) rotate(-8deg);
+    }
+
+    to{
+        opacity:1;
+        transform:scale(1) rotate(0);
+    }
+
+}
+
+@keyframes fadeUp{
+
+    from{
+        opacity:0;
+        transform:translateY(15px);
+    }
+
+    to{
+        opacity:.8;
+        transform:translateY(0);
+    }
+
+}
+
+@keyframes lineGrow{
+
+    to{
+        width:160px;
+    }
+
+}
+
+@keyframes shine{
+
+    0%{
+        background-position:0%;
+    }
+
+    100%{
+        background-position:200%;
+    }
+
+}
+
+@keyframes loading{
+
+    from{
+        width:0;
+    }
+
+    to{
+        width:100%;
+    }
+
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<div class="intro">
+
+    <div class="glow"></div>
+
+
+    <div class="content">
+
+        <div class="welcome">
+            Welcome to
+        </div>
+
+
+        <div class="logo">
+            FYH
+        </div>
+
+
+        <div class="line"></div>
+
+
+        <div class="name">
+            First Year Hub
+        </div>
+
+
+        <div class="tagline">
+            Your Study • Your Future
+        </div>
+
+
+        <div class="loading">
+            Entering your study space...
+        </div>
+
+
+        <div class="bar">
+            <span></span>
+        </div>
+
+    </div>
+
+</div>
+
+
+<script>
+
+setTimeout(function(){
+
+    window.location.href = "notes.html";
+
+},3000);
+
+</script>
+
+
+</body>
+</html>
