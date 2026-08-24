@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <url>
+        <loc>https://first-year-hub-teal.vercel.app/</loc>
+    </url>
+
+    <url>
+        <loc>https://first-year-hub-teal.vercel.app/index.html</loc>
+    </url>
+
+    <url>
+        <loc>https://first-year-hub-teal.vercel.app/home.html</loc>
+    </url>
+
+    <url>
+        <loc>https://first-year-hub-teal.vercel.app/notes.html</loc>
+    </url>
+
+    <url>
+        <loc>https://first-year-hub-teal.vercel.app/practical.html</loc>
+    </url>
+
+    <url>
+        <loc>https://first-year-hub-teal.vercel.app/sessional.html</loc>
+    </url>
+
+    <url>
+        <loc>https://first-year-hub-teal.vercel.app/final.html</loc>
+    </url>
+
+    <!-- AIML -->
+    <url><loc>https://first-year-hub-teal.vercel.app/aiml.html</loc></url>
+    <url><loc>https://first-year-hub-teal.vercel.app/aiml-final.html</loc></url>
+    <url><loc>https://first-year-hub-teal.vercel.app/aiml-sessional.html</loc></url>
+
+    <!-- Basic Electrical Engineering -->
+    <url><loc>https://first-year-hub-teal.vercel.app/bee.html</loc></url>
+    <url><loc>https://first-year-hub-teal.vercel.app/bee-final.html</loc></url>
+    <url><loc>https://first-year-hub-teal.vercel.app/bee-practical.html</loc></url>
+    <url><loc>https://first-year-hub-teal.vercel.app/bee-sessional.html</loc></url>
+
+    <!-- C Language -->
+    <url><loc>https://first-year-hub-teal.vercel.app/c.html</loc></url>
+    <url><loc>https://first-year-hub-teal.vercel.app/c-final.html</loc></url>
+    <url><loc>https://first-year-hub-teal.vercel.app/c-practical.html</loc></url>
+    <url><loc>https://first-year-hub-teal.vercel.app/c-sessional.html</loc></url>
+
+    <!-- DSA -->
+    <url><loc>https://first-year-hub-teal.vercel.app/dsa.html</loc></url>
+    <url><loc>https://first-year-hub-teal.vercel.app/dsa-final.html</loc></url>
+    <url><loc>https://first-year-hub-teal.vercel.app/dsa-practical.html</loc></url>
+    <url><loc>https://first-year-hub-teal.vercel.app/dsa-sessional.html</loc></url>
+
+    <!-- FWT -->
+    <url><loc>https://first-year-hub-teal.vercel.app/fwt.html</loc></url>
+    <url><loc>https://first-year-hub-teal.vercel.app/fwt-final.html</loc></url>
+    <url><loc>https://first-year-hub-teal.vercel.app/fwt-practical.html</loc></url>
+    <url><loc>https://first-year-hub-teal.vercel.app/fwt-sessional.html</loc></url>
+
+    <!-- Mathematics-I -->
+    <url><loc>https://first-year-hub-teal.vercel.app/maths1.html</loc></url>
+    <url><loc>https://first-year-hub-teal.vercel.app/maths1-unit1.html</loc></url>
+    <url><loc>https://first-year-hub-teal.vercel.app/maths1-unit2.html</loc></url>
+    <url><loc>https://first-year-hub-teal.vercel.app/maths1-unit3.html</loc></url>
+    <url><loc>https://first-year-hub-teal.vercel.app/maths1-unit4.html</loc></url>
+    <url><loc>https://first-year-hub-teal.vercel.app/maths1-complete.html</loc></url>
+    <url><loc>https://first-year-hub-teal.vercel.app/maths1-final.html</loc></url>
+    <url><loc>https://first-year-hub-teal.vercel.app/maths1-sessional.html</loc></url>
+
+    <!-- Mathematics-II -->
+    <url><loc>https://first-year-hub-teal.vercel.app/maths2.html</loc></url>
+    <url><loc>https://first-year-hub-teal.vercel.app/maths2-final.html</loc></url>
+    <url><loc>https://first-year-hub-teal.vercel.app/maths2-sessional.html</loc></url>
+
+    <!-- Engineering Mechanics -->
+    <url><loc>https://first-year-hub-teal.vercel.app/mechanics.html</loc></url>
+    <url><loc>https://first-year-hub-teal.vercel.app/mechanics-final.html</loc></url>
+    <url><loc>https://first-year-hub-teal.vercel.app/mechanics-sessional.html</loc></url>
+
+    <!-- Physics -->
+    <url><loc>https://first-year-hub-teal.vercel.app/physics.html</loc></url>
+    <url><loc>https://first-year-hub-teal.vercel.app/physics-final.html</loc></url>
+    <url><loc>https://first-year-hub-teal.vercel.app/physics-practical.html</loc></url>
+    <url><loc>https://first-year-hub-teal.vercel.app/physics-sessional.html</loc></url>
+
+    <!-- Python -->
+    <url><loc>https://first-year-hub-teal.vercel.app/python.html</loc></url>
+    <url><loc>https://first-year-hub-teal.vercel.app/python-final.html</loc></url>
+    <url><loc>https://first-year-hub-teal.vercel.app/python-practical.html</loc></url>
+    <url><loc>https://first-year-hub-teal.vercel.app/python-sessional.html</loc></url>
+
+    <!-- Other pages -->
+    <url><loc>https://first-year-hub-teal.vercel.app/contact.html</loc></url>
+    <url><loc>https://first-year-hub-teal.vercel.app/feedback.html</loc></url>
+
+</urlset>
